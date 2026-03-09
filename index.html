@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodprints — Account Deletion</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #121212;
+            color: #FFFFFF;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        .container { max-width: 600px; width: 100%; }
+        .brand { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+        .brand-name { font-size: 24px; font-weight: 700; color: #E67E22; }
+        .tagline { font-size: 14px; color: #9E9E9E; margin-bottom: 48px; }
+        h1 { font-size: 28px; font-weight: 600; margin-bottom: 16px; }
+        .intro { font-size: 16px; color: #9E9E9E; line-height: 1.6; margin-bottom: 40px; }
+        h2 { font-size: 18px; font-weight: 600; margin-bottom: 16px; }
+        .steps { list-style: none; margin-bottom: 40px; }
+        .steps li { display: flex; gap: 16px; margin-bottom: 24px; line-height: 1.5; }
+        .step-number {
+            flex-shrink: 0; width: 28px; height: 28px; background: #E67E22;
+            border-radius: 50%; display: flex; align-items: center;
+            justify-content: center; font-size: 14px; font-weight: 600; color: #FFFFFF;
+        }
+        .step-content { font-size: 15px; }
+        .step-content strong { display: block; margin-bottom: 4px; }
+        .step-content span { color: #9E9E9E; font-size: 14px; }
+        .step-content a { color: #E67E22; text-decoration: none; }
+        .step-content a:hover { text-decoration: underline; }
+        .data-section {
+            background: #1E1E1E; border-radius: 12px;
+            padding: 24px; margin-bottom: 40px;
+        }
+        .data-section h3 { font-size: 16px; font-weight: 600; margin-bottom: 16px; }
+        .data-list { list-style: none; }
+        .data-list li {
+            font-size: 14px; color: #9E9E9E; padding: 8px 0;
+            border-bottom: 1px solid #2D2D2D;
+            display: flex; align-items: center; gap: 8px;
+        }
+        .data-list li:last-child { border-bottom: none; }
+        .data-list li::before { content: "\00d7"; color: #E74C3C; font-size: 16px; font-weight: 700; }
+        .timeline {
+            background: #1E1E1E; border-radius: 12px;
+            padding: 24px; margin-bottom: 40px;
+        }
+        .timeline h3 { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+        .timeline p { font-size: 14px; color: #9E9E9E; line-height: 1.5; }
+        .contact { margin-bottom: 40px; }
+        .contact p { font-size: 14px; color: #9E9E9E; line-height: 1.6; }
+        .contact a { color: #E67E22; text-decoration: none; }
+        .contact a:hover { text-decoration: underline; }
+        .footer { font-size: 12px; color: #5A5A5A; padding-top: 24px; border-top: 1px solid #2D2D2D; }
+        .footer p { margin-bottom: 4px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="brand">
+            <span class="brand-name">Foodprints</span>
+        </div>
+        <p class="tagline">Great food deserves to be remembered.</p>
+
+        <h1>Delete Your Account</h1>
+        <p class="intro">
+            We respect your right to control your data. If you'd like to delete your
+            Foodprints account and all associated data, here's how.
+        </p>
+
+        <h2>How to request deletion</h2>
+        <ol class="steps">
+            <li>
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <strong>Send us an email</strong>
+                    <span>
+                        Email <a href="mailto:privacy@companyish.com">privacy@companyish.com</a>
+                        with the subject line "Account Deletion Request".
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <strong>Include your registered phone number</strong>
+                    <span>
+                        This is the phone number you used to sign up for Foodprints.
+                        We need it to identify your account.
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <strong>We'll confirm and delete</strong>
+                    <span>
+                        We'll verify your identity, permanently delete all your data,
+                        and send you a confirmation email.
+                    </span>
+                </div>
+            </li>
+        </ol>
+
+        <div class="data-section">
+            <h3>What gets deleted</h3>
+            <ul class="data-list">
+                <li>Your account and authentication credentials</li>
+                <li>Profile information (name, city, avatar)</li>
+                <li>All meal logs, ratings, and notes</li>
+                <li>Dish and restaurant history</li>
+                <li>Uploaded photos (meal photos, bill scans, profile picture)</li>
+                <li>All locally stored data on your device</li>
+            </ul>
+        </div>
+
+        <div class="timeline">
+            <h3>Deletion timeline</h3>
+            <p>
+                Your data will be permanently deleted within <strong>30 days</strong>
+                of your request. During this period, your account will be deactivated
+                and inaccessible. Once deletion is complete, this action cannot be undone.
+            </p>
+        </div>
+
+        <div class="contact">
+            <p>
+                Questions about your data or privacy? Contact us at
+                <a href="mailto:privacy@companyish.com">privacy@companyish.com</a>.
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>Foodprints is developed by Companyish.</p>
+            <p>&copy; 2026 Companyish. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
